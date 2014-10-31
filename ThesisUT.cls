@@ -17,7 +17,6 @@
 \RequirePackage{subdepth}
 \RequirePackage[nottoc]{tocbibind}
 \RequirePackage{fancyhdr}
-\RequirePackage{ptext}
 \RequirePackage{zref-perpage}
 \zmakeperpage{footnote}
 \RequirePackage{hyperref}
@@ -30,22 +29,21 @@
 \RequirePackage[extrafootnotefeatures]{xepersian}
 \settextfont[Scale=1]{XB Zar}
 \setlatintextfont[Scale=.9]{Times New Roman}
-\setdigitfont[Scale=.9]{Parsi Digit}
+\setdigitfont[Scale=.9]{ParsiDigits}
 \paragraphfootnotes
 \setLTRparagraphfootnotes
 
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 \RequirePackage{perpage}
-\RequirePackage[1]{footnote}
-\cfoot{\thepage}
+
 \lhead{}
 \rhead{}
 
 
 \renewcommand\listtablename{فهرست جدول‌ها}
-\renewcommand\bibname{منابع}
 \renewcommand\listfigurename{فهرست شکل‌ها}
+\renewcommand\bibname{منابع}
 
 \newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
 
