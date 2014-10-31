@@ -3,7 +3,7 @@
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
 \ProcessOptions
-\LoadClass[12pt,a4paper]{book}
+\LoadClass[12pt,a4paper]{report}
 
 \RequirePackage[top=3.5cm,right=3.5cm,bottom=2.5cm,left=2.5cm]{geometry}
 \RequirePackage{graphicx}
